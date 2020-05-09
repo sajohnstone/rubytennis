@@ -20,6 +20,6 @@ class TennisScoring
   end
 
   def show_score
-    "Player One: #{@player_one_score} Player Two: #{@player_two_score}"
+    "#{@player_one_score} #{@player_two_score}"
   end
 end
